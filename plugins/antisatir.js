@@ -8,7 +8,7 @@ handler.before = function (m, { user }) {
   let isGroupToxic = linkRegex.exec(m.text)
 
   if (chat.antiToxic && isGroupToxic) {
-    m.reply('Jangan Toxic Gw Satirin Tar!!\n' + readMore + '\nAwas Lo Toxic Gw Satirin Lama²*')
+    m.reply('Anti Satir On Awas Lu Gw Satirin Dek!!\n' + readMore + '\nAnti Satir Is On')
     if (global.opts['restrict']) {
       // if (!user.isAdmin) return true
       // this.groupRemove(m.chat, [m.sender])
